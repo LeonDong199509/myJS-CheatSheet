@@ -5,13 +5,13 @@ var a = fruits.indexOf("Apple")
 2. 'aeiou'.includes('i') 
 3. var objclone = Object.assign({},obj);
 4. var myArray = ['a', 'b', 'c', 'd'];
-myArray.push('end');
-myArray.unshift('start');
-console.log(myArray); // ["start", "a", "b", "c", "d", "end"]
-With ES6, one can use the spread operator:
+    myArray.push('end');
+    myArray.unshift('start');
+    console.log(myArray); // ["start", "a", "b", "c", "d", "end"]
+    With ES6, one can use the spread operator:
 
-myArray = ['start', ...myArray];
-myArray = [...myArray, 'end'];
+    myArray = ['start', ...myArray];
+    myArray = [...myArray, 'end'];
 5. Array.from(Array(b).keys(),(e)=> e+1); // create array from 1 t0 b
 6. Arr.reduce((a,b)=>(a+b),0); // get the sum of array
 7. number.toString(10) // change number to string
